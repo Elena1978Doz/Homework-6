@@ -30,7 +30,7 @@ void main() {
     }
 
 // System.out.println("Задача4");
-    age = 35;
+//    age = 35;
     if (age >= 2 && age <= 6) {
         System.out.println(" Если возраст человека равен " + age + " то ему нужно ходить в детский сад ");
     } else if (age >= 7 && age <= 17) {
@@ -42,13 +42,13 @@ void main() {
     }
 
 // System.out.println("Задача5");
-    age = 21;
-    if (age < 5) {
-        System.out.println("Если возраст ребенка равен " + age + " , то ему нельзя кататься на аттракционе,");
-    } else if (age > 5 && age <= 14) {
-        System.out.println("Если возраст ребенка равен " + age + " , то ему можно кататься на аттракционе в сопровождении взрослого,");
-    } else if (age > 14) {
-        System.out.println("Если возраст ребенка равен " + age + " , то ему можно кататься на аттракционе без сопровождении взрослого,");
+     int years= 21;
+    if (years < 5) {
+        System.out.println("Если возраст ребенка равен " + years + " , то ему нельзя кататься на аттракционе,");
+    } else if (years >= 5 && years <= 14) {
+        System.out.println("Если возраст ребенка равен " + years + " , то ему можно кататься на аттракционе в сопровождении взрослого,");
+    } else if (years > 14) {
+        System.out.println("Если возраст ребенка равен " + years + " , то ему можно кататься на аттракционе без сопровождении взрослого,");
     }
 // System.out.println("Задача6");
     int places = 102;
@@ -58,22 +58,22 @@ void main() {
         System.out.println(" В вагоне есть сидячие места");
     } else if (passengers >= sitPlaces && passengers < places) {
         System.out.println(" В вагоне есть стоячие места");
-    } else if (passengers >= places) {
+    } else if (passengers >= places)
         System.out.println(" В вагоне нет мест");
-    }
-    // System.out.println("Задача7");
-int one = 11;
- int two = 16;
- int three = 30;
- if(two >= one && two <= three) {
-     System.out.println("максимальное число three, равно " + three);
-} else if (three >= two) {
-     System.out.println("максимальное число one, равно " + one);
-     } else {
-     System.out.println("максимальное число two, равно " + two);
 
- }
-}
+        // System.out.println("Задача7");
+        int one = 11;
+        int two = 16;
+        int three = 30;
+        if (two >= one && two <= three) {
+            System.out.println("Наибольшее число three, равно " + three);
+        } else if (one >= two && one >= three) {
+            System.out.println("Наибольшеее число one, равно " + one);
+        } else if (three >= one && three >= two) {
+            System.out.println("Наибольшее число two, равно " + two);
+
+        }
+    }
 
 
 
