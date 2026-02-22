@@ -42,10 +42,10 @@ void main() {
     }
 
 // System.out.println("Задача5");
-     int years= 21;
+    int years = 21;
     if (years < 5) {
         System.out.println("Если возраст ребенка равен " + years + " , то ему нельзя кататься на аттракционе,");
-    } else if (years >= 5 && years <= 14) {
+    } else if (years <= 14) {
         System.out.println("Если возраст ребенка равен " + years + " , то ему можно кататься на аттракционе в сопровождении взрослого,");
     } else if (years > 14) {
         System.out.println("Если возраст ребенка равен " + years + " , то ему можно кататься на аттракционе без сопровождении взрослого,");
@@ -61,19 +61,19 @@ void main() {
     } else if (passengers >= places)
         System.out.println(" В вагоне нет мест");
 
-        // System.out.println("Задача7");
-        int one = 11;
-        int two = 16;
-        int three = 30;
-        if (two >= one && two <= three) {
-            System.out.println("Наибольшее число three, равно " + three);
-        } else if (one >= two && one >= three) {
-            System.out.println("Наибольшеее число one, равно " + one);
-        } else if (three >= one && three >= two) {
-            System.out.println("Наибольшее число two, равно " + two);
+    // System.out.println("Задача7");
+    int one = 41;
+    int two = 56;
+    int three = 80;
+    if (one >= two && one >= three) {
+        System.out.println("Большее число из трёх чисел one , равно " + one);
+    } else if (two >= one && two >= three) {
+        System.out.println("Большеее число из трёх чисел two , равно " + two);
+    } else {
+        System.out.println("Большее число из трёх чисел three, равно " + three);
 
-        }
     }
+}
 
 
 
